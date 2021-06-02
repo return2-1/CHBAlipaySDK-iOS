@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		02588AE0D4BEE572117BEF85 /* Pods-CHBAlipaySDK-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHBAlipaySDK-iOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-CHBAlipaySDK-iOS_Tests/Pods-CHBAlipaySDK-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1D3DB848AC7239F86DA5E5FB /* CHBAlipaySDK-iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "CHBAlipaySDK-iOS.podspec"; path = "../CHBAlipaySDK-iOS.podspec"; sourceTree = "<group>"; };
-		26F39B7C4769CC8491602C43 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1D3DB848AC7239F86DA5E5FB /* CHBAlipaySDK-iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "CHBAlipaySDK-iOS.podspec"; path = "../CHBAlipaySDK-iOS.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		26F39B7C4769CC8491602C43 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		29597E43336062495941FE5F /* Pods-CHBAlipaySDK-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHBAlipaySDK-iOS_Example.release.xcconfig"; path = "Target Support Files/Pods-CHBAlipaySDK-iOS_Example/Pods-CHBAlipaySDK-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4E98113CE190D6B6C78C9E05 /* Pods-CHBAlipaySDK-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHBAlipaySDK-iOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-CHBAlipaySDK-iOS_Example/Pods-CHBAlipaySDK-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CHBAlipaySDK-iOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CHBAlipaySDK-iOS_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +62,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7A20D7B9A76BF79439EA4B66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7A20D7B9A76BF79439EA4B66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		921067DC0877E1E676456190 /* Pods-CHBAlipaySDK-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHBAlipaySDK-iOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CHBAlipaySDK-iOS_Tests/Pods-CHBAlipaySDK-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A9C6E713E75A94E09FC949EA /* Pods_CHBAlipaySDK_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHBAlipaySDK_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,7 +193,6 @@
 				921067DC0877E1E676456190 /* Pods-CHBAlipaySDK-iOS_Tests.debug.xcconfig */,
 				02588AE0D4BEE572117BEF85 /* Pods-CHBAlipaySDK-iOS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

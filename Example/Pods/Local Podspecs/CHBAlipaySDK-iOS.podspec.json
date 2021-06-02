@@ -1,0 +1,22 @@
+{
+  "name": "CHBAlipaySDK-iOS",
+  "version": "0.1.0",
+  "summary": "A short description of CHBAlipaySDK-iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/2573207921@qq.com/CHBAlipaySDK-iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2573207921@qq.com": "2573207921@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/2573207921@qq.com/CHBAlipaySDK-iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CHBAlipaySDK-iOS/Classes/**/*"
+}

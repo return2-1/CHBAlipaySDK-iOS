@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07EFC144C0EC4C1C55C65C12A49CF845 /* Pods-CHBAlipaySDK-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA012F481D96CCCEF91D81FDAE34EE8 /* Pods-CHBAlipaySDK-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DC3BC06758D0DD9352FDEB05387FA8 /* Pods-CHBAlipaySDK-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C9CFF809E2D5806560040D00C5517 /* Pods-CHBAlipaySDK-iOS_Example-dummy.m */; };
+		27ECFAA337D53BFF104BBCC70791E971 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3D45F77E69E1C8291D8FDC80D70C8F38 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C0C24B0DE4C5309711B7BCF0BF56E0 /* ReplaceMe.m */; };
+		4CAC1C986B15159D31B9B93054FFCC9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8C231409930B55236D940E181A7DA3E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		92E8FACCE07F5ED88536C50E71964CFD /* CHBAlipaySDK-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 411A39014C4E0F1281A14E81D90192DF /* CHBAlipaySDK-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02E0661E0F012257152A5887E2DF1DA /* Pods-CHBAlipaySDK-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5F7BCF8C4ABE9D1C79198B9A19EB3E /* Pods-CHBAlipaySDK-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBF648179A845DAC62D37D81958072AF /* CHBAlipaySDK-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCEAEB45D3151F7B4B359A0F3CDFC19 /* CHBAlipaySDK-iOS-dummy.m */; };
+		F8CB69FD4AF7698D3F398DE625E9BD64 /* Pods-CHBAlipaySDK-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C44B13AD2580652120C1B17633891284 /* Pods-CHBAlipaySDK-iOS_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11EC39EE9B1CD85330F2E087140C7CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29F59A4410582E061C7C4530044FFF26;
+			remoteInfo = "CHBAlipaySDK-iOS";
+		};
+		430987EF7ACDE70E5C9147530E732726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5507BB62CC87CC693F4B14AF8353FFA2;
+			remoteInfo = "Pods-CHBAlipaySDK-iOS_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A2DD087F21933CD1DE2579E37BC5142 /* Pods-CHBAlipaySDK-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHBAlipaySDK-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0F5C9CFF809E2D5806560040D00C5517 /* Pods-CHBAlipaySDK-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHBAlipaySDK-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		16FFC4B16D341D1D08B9D3BF549D4814 /* CHBAlipaySDK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CHBAlipaySDK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2A78CEF1F54D60F04830F3CAB46D51ED /* Pods-CHBAlipaySDK-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHBAlipaySDK-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2A937BC2183C2932176193D521BDA693 /* Pods-CHBAlipaySDK-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHBAlipaySDK-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2CE432453B2B79270EA4FE90DFB91CE6 /* Pods-CHBAlipaySDK-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CHBAlipaySDK-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		2D44823C87A42D437751B66FAA56CFB0 /* Pods-CHBAlipaySDK-iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHBAlipaySDK-iOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		2DA012F481D96CCCEF91D81FDAE34EE8 /* Pods-CHBAlipaySDK-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHBAlipaySDK-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		411A39014C4E0F1281A14E81D90192DF /* CHBAlipaySDK-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHBAlipaySDK-iOS-umbrella.h"; sourceTree = "<group>"; };
+		4470236552752C1CA10AC208A831CD17 /* Pods_CHBAlipaySDK_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHBAlipaySDK_iOS_Tests.framework; path = "Pods-CHBAlipaySDK-iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FF0D2625A286BA48B16D2BDD5AC132 /* CHBAlipaySDK-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHBAlipaySDK-iOS-prefix.pch"; sourceTree = "<group>"; };
+		4713810A66ADD77B18D428F03906FF7A /* Pods-CHBAlipaySDK-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHBAlipaySDK-iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		56C0C24B0DE4C5309711B7BCF0BF56E0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "CHBAlipaySDK-iOS/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
+		5D5F7BCF8C4ABE9D1C79198B9A19EB3E /* Pods-CHBAlipaySDK-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHBAlipaySDK-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6746D91B8A03695749DF3313186E5E68 /* Pods-CHBAlipaySDK-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHBAlipaySDK-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6C1EFB9BA69E73D42CA9061631436CF5 /* Pods-CHBAlipaySDK-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHBAlipaySDK-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		824EEA65ADA39F4B4610E8D2EBFCB5BF /* CHBAlipaySDK-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "CHBAlipaySDK-iOS.modulemap"; sourceTree = "<group>"; };
+		9BCEAEB45D3151F7B4B359A0F3CDFC19 /* CHBAlipaySDK-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHBAlipaySDK-iOS-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F96C4BA8D4A4482F1A1A5D39294D5D7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		ACC401FAE35E033790F84715A3DD0AC8 /* CHBAlipaySDK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHBAlipaySDK_iOS.framework; path = "CHBAlipaySDK-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FD8194AB8ED28D2A789EB9F07EAFAA /* Pods-CHBAlipaySDK-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHBAlipaySDK-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B77D7C9BE863A9EAF046BE534E5833E3 /* Pods-CHBAlipaySDK-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHBAlipaySDK-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9E751A0247F2189BCC0F4EEA51CD4AC /* Pods_CHBAlipaySDK_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHBAlipaySDK_iOS_Example.framework; path = "Pods-CHBAlipaySDK-iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB346B1A739611E218798CBAFD29A605 /* CHBAlipaySDK-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "CHBAlipaySDK-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C44B13AD2580652120C1B17633891284 /* Pods-CHBAlipaySDK-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHBAlipaySDK-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		C8BA13385A37A871611ABFEB2B74FF8A /* Pods-CHBAlipaySDK-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHBAlipaySDK-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D046D4660EADAD0F6937E41C604F2165 /* Pods-CHBAlipaySDK-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CHBAlipaySDK-iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		D725E10645A31D5454C1D380F640FABE /* CHBAlipaySDK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CHBAlipaySDK-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		E96E2C799F946B875843FCD1733A03F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F3D68B0E5F82B57EF208D9CC04917FD5 /* Pods-CHBAlipaySDK-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHBAlipaySDK-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		478C6109E297543275DAC5AC26D79890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAC1C986B15159D31B9B93054FFCC9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B2719EB10C3876C408C59D5456D556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C231409930B55236D940E181A7DA3E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D2B40116F32CB8BD7485FA0BFEAF4D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27ECFAA337D53BFF104BBCC70791E971 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1020289A4FC9192660004D2ED6A06522 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BB346B1A739611E218798CBAFD29A605 /* CHBAlipaySDK-iOS.podspec */,
+				E96E2C799F946B875843FCD1733A03F8 /* LICENSE */,
+				9F96C4BA8D4A4482F1A1A5D39294D5D7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1E5E312B179C547E9A1490314790BA4A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				824EEA65ADA39F4B4610E8D2EBFCB5BF /* CHBAlipaySDK-iOS.modulemap */,
+				9BCEAEB45D3151F7B4B359A0F3CDFC19 /* CHBAlipaySDK-iOS-dummy.m */,
+				46FF0D2625A286BA48B16D2BDD5AC132 /* CHBAlipaySDK-iOS-prefix.pch */,
+				411A39014C4E0F1281A14E81D90192DF /* CHBAlipaySDK-iOS-umbrella.h */,
+				16FFC4B16D341D1D08B9D3BF549D4814 /* CHBAlipaySDK-iOS.debug.xcconfig */,
+				D725E10645A31D5454C1D380F640FABE /* CHBAlipaySDK-iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CHBAlipaySDK-iOS";
+			sourceTree = "<group>";
+		};
+		31DDCEA5266CA2C2F29D80CE6CFF9DE0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60F82E7201FA76302385B2C35A8CA263 /* CHBAlipaySDK-iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3B9C1E41EF015D9E37BC443629EEBFB0 /* Pods-CHBAlipaySDK-iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D046D4660EADAD0F6937E41C604F2165 /* Pods-CHBAlipaySDK-iOS_Tests.modulemap */,
+				C8BA13385A37A871611ABFEB2B74FF8A /* Pods-CHBAlipaySDK-iOS_Tests-acknowledgements.markdown */,
+				B77D7C9BE863A9EAF046BE534E5833E3 /* Pods-CHBAlipaySDK-iOS_Tests-acknowledgements.plist */,
+				C44B13AD2580652120C1B17633891284 /* Pods-CHBAlipaySDK-iOS_Tests-dummy.m */,
+				2D44823C87A42D437751B66FAA56CFB0 /* Pods-CHBAlipaySDK-iOS_Tests-Info.plist */,
+				5D5F7BCF8C4ABE9D1C79198B9A19EB3E /* Pods-CHBAlipaySDK-iOS_Tests-umbrella.h */,
+				6C1EFB9BA69E73D42CA9061631436CF5 /* Pods-CHBAlipaySDK-iOS_Tests.debug.xcconfig */,
+				F3D68B0E5F82B57EF208D9CC04917FD5 /* Pods-CHBAlipaySDK-iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-CHBAlipaySDK-iOS_Tests";
+			path = "Target Support Files/Pods-CHBAlipaySDK-iOS_Tests";
+			sourceTree = "<group>";
+		};
+		60F82E7201FA76302385B2C35A8CA263 /* CHBAlipaySDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				56C0C24B0DE4C5309711B7BCF0BF56E0 /* ReplaceMe.m */,
+				1020289A4FC9192660004D2ED6A06522 /* Pod */,
+				1E5E312B179C547E9A1490314790BA4A /* Support Files */,
+			);
+			name = "CHBAlipaySDK-iOS";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7F505E9DC1A7A2ED1AFE16B22D9846FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC401FAE35E033790F84715A3DD0AC8 /* CHBAlipaySDK_iOS.framework */,
+				B9E751A0247F2189BCC0F4EEA51CD4AC /* Pods_CHBAlipaySDK_iOS_Example.framework */,
+				4470236552752C1CA10AC208A831CD17 /* Pods_CHBAlipaySDK_iOS_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C3993BE349D68111F90254D601CE6E54 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7D8AD960F36A02894B3AEFAF4D4FE39 /* Pods-CHBAlipaySDK-iOS_Example */,
+				3B9C1E41EF015D9E37BC443629EEBFB0 /* Pods-CHBAlipaySDK-iOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				31DDCEA5266CA2C2F29D80CE6CFF9DE0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7F505E9DC1A7A2ED1AFE16B22D9846FD /* Products */,
+				C3993BE349D68111F90254D601CE6E54 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7D8AD960F36A02894B3AEFAF4D4FE39 /* Pods-CHBAlipaySDK-iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2CE432453B2B79270EA4FE90DFB91CE6 /* Pods-CHBAlipaySDK-iOS_Example.modulemap */,
+				2A78CEF1F54D60F04830F3CAB46D51ED /* Pods-CHBAlipaySDK-iOS_Example-acknowledgements.markdown */,
+				B5FD8194AB8ED28D2A789EB9F07EAFAA /* Pods-CHBAlipaySDK-iOS_Example-acknowledgements.plist */,
+				0F5C9CFF809E2D5806560040D00C5517 /* Pods-CHBAlipaySDK-iOS_Example-dummy.m */,
+				2A937BC2183C2932176193D521BDA693 /* Pods-CHBAlipaySDK-iOS_Example-frameworks.sh */,
+				4713810A66ADD77B18D428F03906FF7A /* Pods-CHBAlipaySDK-iOS_Example-Info.plist */,
+				2DA012F481D96CCCEF91D81FDAE34EE8 /* Pods-CHBAlipaySDK-iOS_Example-umbrella.h */,
+				6746D91B8A03695749DF3313186E5E68 /* Pods-CHBAlipaySDK-iOS_Example.debug.xcconfig */,
+				0A2DD087F21933CD1DE2579E37BC5142 /* Pods-CHBAlipaySDK-iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-CHBAlipaySDK-iOS_Example";
+			path = "Target Support Files/Pods-CHBAlipaySDK-iOS_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26F373B65057017035E95EA7863E6BE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E8FACCE07F5ED88536C50E71964CFD /* CHBAlipaySDK-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B0B8A4FEC0CA901B01C157F0FFD7852 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02E0661E0F012257152A5887E2DF1DA /* Pods-CHBAlipaySDK-iOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88C2AE23441A23F8A797A8519B8C4C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EFC144C0EC4C1C55C65C12A49CF845 /* Pods-CHBAlipaySDK-iOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29F59A4410582E061C7C4530044FFF26 /* CHBAlipaySDK-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1681E2C6F9640A1B2D0343E12510B53D /* Build configuration list for PBXNativeTarget "CHBAlipaySDK-iOS" */;
+			buildPhases = (
+				26F373B65057017035E95EA7863E6BE6 /* Headers */,
+				0E702BF48C3CFFD0BF13B4ACAA9C8AC8 /* Sources */,
+				64B2719EB10C3876C408C59D5456D556 /* Frameworks */,
+				A1C948D4EE5944CCC5E51EB6B0ABAD95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CHBAlipaySDK-iOS";
+			productName = "CHBAlipaySDK-iOS";
+			productReference = ACC401FAE35E033790F84715A3DD0AC8 /* CHBAlipaySDK_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5507BB62CC87CC693F4B14AF8353FFA2 /* Pods-CHBAlipaySDK-iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD69E2284C3F6CE9A45484C62ADAE180 /* Build configuration list for PBXNativeTarget "Pods-CHBAlipaySDK-iOS_Example" */;
+			buildPhases = (
+				F88C2AE23441A23F8A797A8519B8C4C8 /* Headers */,
+				B2546E9695C7CD1C6A8BC6F6718B25C5 /* Sources */,
+				478C6109E297543275DAC5AC26D79890 /* Frameworks */,
+				0F755F35EA9A5D5ADB1D8043D41A512E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA60C7566A7BEC6FB5A927C5240FDE2C /* PBXTargetDependency */,
+			);
+			name = "Pods-CHBAlipaySDK-iOS_Example";
+			productName = "Pods-CHBAlipaySDK-iOS_Example";
+			productReference = B9E751A0247F2189BCC0F4EEA51CD4AC /* Pods_CHBAlipaySDK_iOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F209206BA6B9874C554A08249C72C1BC /* Pods-CHBAlipaySDK-iOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE09354FBA50021CDABC1E39AA84206 /* Build configuration list for PBXNativeTarget "Pods-CHBAlipaySDK-iOS_Tests" */;
+			buildPhases = (
+				4B0B8A4FEC0CA901B01C157F0FFD7852 /* Headers */,
+				5EC4A309F64D200AB0A03AE3A4005219 /* Sources */,
+				7D2B40116F32CB8BD7485FA0BFEAF4D3 /* Frameworks */,
+				97D07B94338BB87AE90D1E25AA594392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDAC26948F867C9233D34AB698E2C7E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-CHBAlipaySDK-iOS_Tests";
+			productName = "Pods-CHBAlipaySDK-iOS_Tests";
+			productReference = 4470236552752C1CA10AC208A831CD17 /* Pods_CHBAlipaySDK_iOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7F505E9DC1A7A2ED1AFE16B22D9846FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29F59A4410582E061C7C4530044FFF26 /* CHBAlipaySDK-iOS */,
+				5507BB62CC87CC693F4B14AF8353FFA2 /* Pods-CHBAlipaySDK-iOS_Example */,
+				F209206BA6B9874C554A08249C72C1BC /* Pods-CHBAlipaySDK-iOS_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F755F35EA9A5D5ADB1D8043D41A512E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D07B94338BB87AE90D1E25AA594392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C948D4EE5944CCC5E51EB6B0ABAD95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E702BF48C3CFFD0BF13B4ACAA9C8AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF648179A845DAC62D37D81958072AF /* CHBAlipaySDK-iOS-dummy.m in Sources */,
+				3D45F77E69E1C8291D8FDC80D70C8F38 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC4A309F64D200AB0A03AE3A4005219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CB69FD4AF7698D3F398DE625E9BD64 /* Pods-CHBAlipaySDK-iOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2546E9695C7CD1C6A8BC6F6718B25C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DC3BC06758D0DD9352FDEB05387FA8 /* Pods-CHBAlipaySDK-iOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA60C7566A7BEC6FB5A927C5240FDE2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CHBAlipaySDK-iOS";
+			target = 29F59A4410582E061C7C4530044FFF26 /* CHBAlipaySDK-iOS */;
+			targetProxy = 11EC39EE9B1CD85330F2E087140C7CE5 /* PBXContainerItemProxy */;
+		};
+		FDAC26948F867C9233D34AB698E2C7E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CHBAlipaySDK-iOS_Example";
+			target = 5507BB62CC87CC693F4B14AF8353FFA2 /* Pods-CHBAlipaySDK-iOS_Example */;
+			targetProxy = 430987EF7ACDE70E5C9147530E732726 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6AF0BFF5BC4395EC0DECB9626D732A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D725E10645A31D5454C1D380F640FABE /* CHBAlipaySDK-iOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHBAlipaySDK-iOS/CHBAlipaySDK-iOS-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHBAlipaySDK-iOS/CHBAlipaySDK-iOS.modulemap";
+				PRODUCT_MODULE_NAME = CHBAlipaySDK_iOS;
+				PRODUCT_NAME = CHBAlipaySDK_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7CD2FA967FB15DA52EEDB77DE7CF6BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16FFC4B16D341D1D08B9D3BF549D4814 /* CHBAlipaySDK-iOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHBAlipaySDK-iOS/CHBAlipaySDK-iOS-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHBAlipaySDK-iOS/CHBAlipaySDK-iOS.modulemap";
+				PRODUCT_MODULE_NAME = CHBAlipaySDK_iOS;
+				PRODUCT_NAME = CHBAlipaySDK_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D3AB2CBED820A6648AEF37EBE8EB7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3D68B0E5F82B57EF208D9CC04917FD5 /* Pods-CHBAlipaySDK-iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHBAlipaySDK-iOS_Tests/Pods-CHBAlipaySDK-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHBAlipaySDK-iOS_Tests/Pods-CHBAlipaySDK-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A12E65632F1E7593474DA18628E25E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C1EFB9BA69E73D42CA9061631436CF5 /* Pods-CHBAlipaySDK-iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHBAlipaySDK-iOS_Tests/Pods-CHBAlipaySDK-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHBAlipaySDK-iOS_Tests/Pods-CHBAlipaySDK-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FBFDFC8C32054F152AAD2AE29024B397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6746D91B8A03695749DF3313186E5E68 /* Pods-CHBAlipaySDK-iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHBAlipaySDK-iOS_Example/Pods-CHBAlipaySDK-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHBAlipaySDK-iOS_Example/Pods-CHBAlipaySDK-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCC95502376379E16F0F3A4F4D758D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A2DD087F21933CD1DE2579E37BC5142 /* Pods-CHBAlipaySDK-iOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHBAlipaySDK-iOS_Example/Pods-CHBAlipaySDK-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHBAlipaySDK-iOS_Example/Pods-CHBAlipaySDK-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1681E2C6F9640A1B2D0343E12510B53D /* Build configuration list for PBXNativeTarget "CHBAlipaySDK-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD2FA967FB15DA52EEDB77DE7CF6BB9 /* Debug */,
+				6AF0BFF5BC4395EC0DECB9626D732A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD69E2284C3F6CE9A45484C62ADAE180 /* Build configuration list for PBXNativeTarget "Pods-CHBAlipaySDK-iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFDFC8C32054F152AAD2AE29024B397 /* Debug */,
+				FCC95502376379E16F0F3A4F4D758D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE09354FBA50021CDABC1E39AA84206 /* Build configuration list for PBXNativeTarget "Pods-CHBAlipaySDK-iOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12E65632F1E7593474DA18628E25E43 /* Debug */,
+				7D3AB2CBED820A6648AEF37EBE8EB7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

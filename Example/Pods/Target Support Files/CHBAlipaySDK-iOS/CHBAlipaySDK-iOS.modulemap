@@ -1,0 +1,6 @@
+framework module CHBAlipaySDK_iOS {
+  umbrella header "CHBAlipaySDK-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
